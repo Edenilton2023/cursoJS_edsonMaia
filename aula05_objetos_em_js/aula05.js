@@ -37,6 +37,17 @@ produtos = {
 }
 console.log(produtos);//{ 'descriçao': [], preco: [] }
 
+//ALTERAR/ ATUALIZAR valor de propriedade
+pessoa.nome ='edson maia'
+produtos.descriçao =['arroz']
+produtos.preco=[4.99]
+console.log(produtos);//{ 'descriçao': [], preco: [] }
+
+//usando epredd operator
+
+produtos.descriçao =[ ...produtos.descriçao,'feijao','trigo']
+produtos.preco =[...produtos.preco,9.99,4.45]
+console.log(produtos)
 const carro ={
     marca : ['ford', ' fiat ', ' GM'],
     modelo: ['ka', 'uno','corsa'],
@@ -47,3 +58,15 @@ console.log(carro);/*{
   modelo: [ 'ka', 'uno', 'corsa' ],
   ano: [ 1999, 5005, 2012 ]
 }*/
+
+//usando  epreed operator em constante
+
+carro.marca=[...carro.marca,'wv']
+carro.modelo = [...carro.modelo, 'fusca'];
+carro.ano = [...carro.ano, '1979'];
+console.log(carro);
+/*{
+  marca: [ 'ford', ' fiat ', ' GM', 'wv' ],
+  modelo: [ 'ka', 'uno', 'corsa', 'fusca' ],
+  ano: [ 1999, 5005, 2012, '1979' ]
+} */

@@ -1,0 +1,138 @@
+ 
+ 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ .card h2 {
+    font-size: 1.5rem;
+    color: #fff;
+    text-align: center;
+
+
+    
+ }
+  .card{
+  font-family: "Roboto",sans-serif;
+  width: 280px;
+  height: 100%;
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 8px;
+  background: #222;
+  border: 5px solid #444;
+  box-shadow: 0 0 5px;
+  color: #191919;
+  font-size: 0.95rem;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+ 
+ }
+
+ .card img {
+    width: 100%;
+    border-radius: 8px;
+    border: 5px solid #444;
+    margin-bottom: 1rem;
+
+ }
+.card p {
+    background: #fff;
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 0.625rem;
+    text-align: center;
+ 
+}
+.citaçao{
+    font-family: "special Elite", cursiva;
+    max-width: 400px;
+    max-height: 400px;
+    margin: 1rem;
+    padding: 1.5rem;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    box-shadow: 0 0 5px;
+    
+    color: #333
+
+}
+.citaçao h2{
+    margin-bottom: 0.75rem;
+}
+.citaçao h3 {
+    margin-bottom: 0.75rem;
+    font-size: 0.95;
+}
+.citaçao blockquote{
+    margin-left: 2rem;
+    margin-bottom: 0.75rem;
+    font-size: 1.5rem;
+    font-weight: 400;
+    font-style: italic;
+    line-height: 2rem;
+
+}
+.citaçao p{
+    text-align: right;
+  
+}
+ .citaçao {
+        width: 100%;
+        border-radius: 8px;
+        border: 5px solid #444;
+        margin-bottom: 1rem;
+        background-image: url(./imagens/entardecer.jpg);
+       background-size:cover;
+       background-repeat: no-repeat;
+       background-position: center top ;
+
+
+    }
+     div.meses {
+        width: 300px;
+        background: #ececec;
+        box-shadow: 2px 2px 5px #222;
+        margin: 1rem;
+        padding: 1rem;
+    
+        border: .3px solid black;
+    }
+        .jogo {
+            font-family: 'Roboto', sans-serif;
+            width: 350px;
+            height: 100%;
+            margin: 1rem;
+            padding: 1rem;
+            line-height: 2rem;
+    
+            background-image: url('./imagens/image_LOL.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            color: #ececec;
+            border-radius: 10px;
+            box-shadow: 0px 0px 2px #222;
+        }
+    
+        .jogo h2 {
+            margin-bottom: 1rem;
+            text-shadow: 1px 1px 1px #222;
+        }
+        .jogo span {
+            display: block;
+            font-size: 0.75rem;
+            text-shadow: 1px 1px 1px #222;
+        }
+    
+        .jogo p {
+            background: #fff;
+            color: #191919;
+            border-radius: 8px;
+            padding: 3px 10px;
+            box-shadow: 0px 0px 2px #222;
+        }
