@@ -24,7 +24,7 @@ let btnEnviar = document.querySelector('#btnEnviar');
 let btnLimpar = document.querySelector('#btnLimpa');
   
 
-
+//2
 // se colocar .value no final ja pego logo o valor
 
 /* adicionar um escutador de evento para o btnenviar*/
